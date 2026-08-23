@@ -87,11 +87,6 @@ Designed with a curated **Dark & Neon-Orange Glassmorphism** aesthetic (`#222831
 - **Styling**: Vanilla CSS3 (Custom Design System, Flexbox, CSS Grid, Glassmorphism, CSS Keyframes)
 - **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (`fa6`, `md`, `gi`, `cg`)
 
-### Backend & Analytics Competencies
-- **Languages**: Java, JavaScript, Python, SQL
-- **Frameworks & DB**: Spring Boot, REST APIs, PostgreSQL, SQLite, Django
-- **Tools & Analytics**: Git, GitHub, Power BI, Microsoft Excel, DAX
-
 ---
 
 ## 📂 Project Architecture
