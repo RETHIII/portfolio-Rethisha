@@ -23,19 +23,7 @@
 </div>
 
 ---
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [Project Architecture](#-project-architecture)
-- [Showcased Projects](#-showcased-projects)
-- [Getting Started](#-getting-started)
-- [Deployment](#-deployment)
-- [Contact](#-contact)
-- [License](#-license)
-
+Live Preview : https://portfolio-rethisha.vercel.app/
 ---
 
 ## ✨ Overview
