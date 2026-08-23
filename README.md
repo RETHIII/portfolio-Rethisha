@@ -23,7 +23,9 @@
 </div>
 
 ---
-Live Preview : https://portfolio-rethisha.vercel.app/
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/🚀%20View%20Live%20Portfolio-Click%20Here-success?style=for-the-badge)](https://portfolio-rethisha.vercel.app/)
 ---
 
 ## ✨ Overview
