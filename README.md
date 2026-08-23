@@ -173,21 +173,6 @@ Follow these steps to run the portfolio locally on your machine:
 
 ---
 
-## 🌐 Deployment
-
-The project can be deployed easily on platforms such as **GitHub Pages**, **Vercel**, or **Render**:
-
-### Deploying to GitHub Pages:
-1. In `vite.config.js`, set `base: "/Portfolio-Rethisha/"`.
-2. Run `npm run build`.
-3. Deploy the `dist` folder to GitHub Pages.
-
-### Deploying to Vercel / Netlify:
-- Connect your GitHub repository (`Portfolio-Rethisha`) to Vercel/Netlify.
-- Build command: `npm run build`
-- Output directory: `dist`
-
----
 
 ## 📬 Contact
 
