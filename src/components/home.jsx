@@ -55,14 +55,12 @@ export default function Home() {
         </p>
       </div>
       <div className="home-btn">
-        <button className="btn1">
-          <a href="#projects">View My Work</a>
-        </button>
-        <button className="btn2">
-          <a href={resume} download>
-            Download CV
-          </a>
-        </button>
+        <a href="#projects" className="btn1">
+          View My Work
+        </a>
+        <a href={resume} download className="btn2">
+          Download CV
+        </a>
       </div>
     </div>
   );

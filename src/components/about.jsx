@@ -28,15 +28,20 @@ export default function About() {
         { name: "powerbi", logo: powerbi },
         { name: "excel", logo: excel },
     ];
-    const [rad, setRad] = useState(220);
+    const [rad, setRad] = useState(210);
     useEffect(() => {
         const uprad = () => {
-            if (window.innerWidth <= 480) {
-                setRad(120);
-            } else if (window.innerWidth <= 768) {
+            const w = window.innerWidth;
+            if (w <= 360) {
+                setRad(95);
+            } else if (w <= 480) {
+                setRad(115);
+            } else if (w <= 768) {
+                setRad(140);
+            } else if (w <= 1024) {
                 setRad(170);
             } else {
-                setRad(220);
+                setRad(210);
             }
         };
         uprad();

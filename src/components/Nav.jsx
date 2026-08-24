@@ -9,22 +9,26 @@ export default function Nav() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="nav-bar">
       <div className="nav-left">
         <div className="nav-logo">
-            <a href="#home"><span>RR</span></a>
+          <a href="#home" onClick={closeMenu}><span>RR</span></a>
         </div>
       </div>
-      <div className="nav-menu" onClick={toggleMenu}>
+      <div className="nav-menu" onClick={toggleMenu} aria-label="Toggle navigation">
         {isOpen ? <MdOutlineClose /> : <GiHamburgerMenu />}
       </div>
       <div className={`mobile-menu ${isOpen ? "active" : ""}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#journey">Journey</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#home" onClick={closeMenu}>Home</a>
+        <a href="#about" onClick={closeMenu}>About</a>
+        <a href="#journey" onClick={closeMenu}>Journey</a>
+        <a href="#projects" onClick={closeMenu}>Projects</a>
+        <a href="#contact" onClick={closeMenu}>Contact</a>
       </div>
       <div className="nav-right">
         <a href="#about">About</a>
